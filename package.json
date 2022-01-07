@@ -1,0 +1,26 @@
+{
+  "name": "cautious-winter",
+  "version": "0.0.1",
+  "description": "svg sprite generator",
+  "main": "index.js",
+  "scripts": {
+    "generate": "svg-sprite -s --symbol-dest icons --symbol-sprite icons.svg svg/*.svg"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/droshev/cautious-winner.git"
+  },
+  "keywords": [
+    "svg",
+    "sprite"
+  ],
+  "author": "droshev",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/droshev/cautious-winner/issues"
+  },
+  "homepage": "https://github.com/droshev/cautious-winner#readme",
+  "devDependencies": {
+    "svg-sprite": "^1.5.3"
+  }
+}
